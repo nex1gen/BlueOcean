@@ -34,7 +34,7 @@ pipeline {
       }
     }
 
-    stage('Post Action') {
+    stage('Post Actions') {
       steps {
         echo 'Post actions'
       }
